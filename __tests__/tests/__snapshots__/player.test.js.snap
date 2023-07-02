@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactJkMusicPlayer/> should render a <ReactJkMusicPlayer/> components 1`] = `
+<div
+  class="react-jinke-music-player-main dark-theme text-class-name"
+  tabindex="-1"
+>
+  <div
+    class="react-jinke-music-player react-draggable"
+    style="left: 0px; top: 0px; transform: translate(0px,0px);"
+    tabindex="-1"
+  >
+    <div
+      class="music-player"
+    >
+      <div
+        class="scale music-player-controller"
+        id="music-player-controller"
+        style="background-image: url();"
+      >
+        <span
+          class="controller-title"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+            />
+          </svg>
+        </span>
+        <div
+          class="music-player-controller-setting"
+        >
+          Open
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="audio-lists-panel"
+  >
+    <div
+      class="audio-lists-panel-header"
+    >
+      <h2
+        class="audio-lists-panel-header-title"
+      >
+        <span>
+          Playlists / 
+        </span>
+        <span
+          class="audio-lists-panel-header-num"
+        >
+          0
+        </span>
+        <span
+          class="audio-lists-panel-header-actions"
+        >
+          <span
+            class="audio-lists-panel-header-delete-btn"
+            title="Delete audio lists"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"
+                />
+              </g>
+            </svg>
+          </span>
+          <span
+            class="audio-lists-panel-header-line"
+          />
+          <span
+            class="audio-lists-panel-header-close-btn"
+            title="Close"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </span>
+        </span>
+      </h2>
+    </div>
+    <div
+      class="audio-lists-panel-content no-content"
+    >
+      <span>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+          />
+        </svg>
+      </span>
+      <span
+        class="no-data"
+      >
+        No music
+      </span>
+    </div>
+  </div>
+  <div
+    class="play-mode-title"
+  >
+    Play in order
+  </div>
+  <audio
+    class="music-player-audio"
+    src=""
+    title=""
+  />
+</div>
+`;

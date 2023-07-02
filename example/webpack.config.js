@@ -1,0 +1,130 @@
+const path = require('path')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+
+const HOST = 'localhost'
+const PORT = 8084
+
+const getPublicPath = () => {
+  if (
+    process.env.NETLIFY ||
+    process.env.SURGE ||
+    process.env.NODE_ENV !== 'production'
+  ) {
+    return '/'
+  }
+  return '/react-music-player'
+}
+
+module.exports = () => {
+  const isDev = process.env.NODE_ENV === 'development'
+  const options = {
+    mode: process.env.NODE_ENV,
+    entry: isDev
+      ? [
+          'react-hot-loader/patch',
+          `webpack-dev-server/client?http://${HOST}:${PORT}`,
+          'webpack/hot/only-dev-server',
+          path.join(__dirname, '../example'),
+        ]
+      : path.join(__dirname, '../example'),
+    output: {
+      path: path.join(__dirname, '../example/dist'),
+      filename: '[name].[hash:8].js',
+      publicPath: getPublicPath(),
+    },
+    // 模块加载器
+    module: {
+      rules: [
+        {
+          test: /\.js[x]?$/,
+          use: [
+            {
+              loader: 'babel-loader',
+            },
+          ],
+          exclude: '/node_modules/',
+        },
+        {
+          test: /\.less$/,
+          use: [
+            { loader: 'style-loader' },
+            {
+              loader: 'css-loader',
+              options: { sourceMap: isDev },
+            },
+            {
+              loader: 'less-loader',
+              options: {
+                sourceMap: isDev,
+                // javascriptEnabled: true,
+              },
+            },
+          ],
+        },
+        {
+          test: /\.css$/,
+          use: [
+            { loader: 'style-loader' },
+            {
+              loader: 'css-loader',
+              options: { sourceMap: isDev },
+            },
+          ],
+        },
+        {
+          test: /\.(eot|ttf|svg|woff|woff2)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: 'fonts/[name][hash:8].[ext]',
+              },
+            },
+          ],
+        },
+      ],
+    },
+    target: 'web',
+    devtool: isDev ? 'eval-source-map' : false,
+    resolve: {
+      enforceExtension: false,
+      extensions: ['.js', '.jsx', '.json'],
+      modules: [path.resolve('src'), path.resolve('.'), 'node_modules'],
+    },
+    // externals: {
+    //   async: 'commonjs async',
+    // },
+    devServer: {
+      contentBase: path.join(__dirname, '../example/'),
+      host: HOST,
+      compress: true,
+      inline: true,
+      port: PORT,
+      historyApiFallback: true,
+      hot: true,
+      open: true,
+      clientLogLevel: 'silent',
+      stats: {
+        color: true,
+        errors: true,
+        version: true,
+        warnings: true,
+        progress: true,
+      },
+    },
+    plugins: [
+      new CleanWebpackPlugin(),
+      new HtmlWebpackPlugin({
+        template: path.join(__dirname, '../example/index.html'),
+      }),
+      new webpack.DefinePlugin({
+        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+      }),
+      process.env.ANALYZER && new BundleAnalyzerPlugin(),
+    ].filter(Boolean),
+  }
+  return options
+}

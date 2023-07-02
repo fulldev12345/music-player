@@ -1,0 +1,1556 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Locale test should render default locale with en_US 1`] = `
+<ReactJkMusicPlayer
+  audioLists={Array []}
+  autoHiddenCover={false}
+  autoPlay={true}
+  bounds="body"
+  className="text-class-name"
+  defaultPlayIndex={0}
+  defaultPlayMode="order"
+  defaultPosition={
+    Object {
+      "left": 0,
+      "top": 0,
+    }
+  }
+  defaultVolume={1}
+  drag={true}
+  getContainer={[Function]}
+  glassBg={false}
+  icon={
+    Object {
+      "close": <MdClose />,
+      "delete": <RiDeleteBinLine
+        size={24}
+      />,
+      "destroy": <MdClose />,
+      "download": <TiDownload
+        size={26}
+      />,
+      "empty": <MdLibraryMusic />,
+      "loading": <FaSpinner />,
+      "loop": <MdRepeatOne
+        size={26}
+      />,
+      "lyric": <FaBook />,
+      "mute": <GoMute
+        size={26}
+      />,
+      "next": <MdSkipNext />,
+      "order": <MdViewHeadline
+        size={26}
+      />,
+      "orderLoop": <MdRepeat
+        size={26}
+      />,
+      "packUpPanelMobile": <FiChevronsDown
+        size={26}
+      />,
+      "pause": <AnimatePauseIcon />,
+      "play": <AnimatePlayIcon />,
+      "playLists": <RiPlayList2Fill />,
+      "prev": <MdSkipPrevious />,
+      "reload": <FaSyncAlt
+        size={22}
+      />,
+      "shuffle": <TiArrowShuffle
+        size={26}
+      />,
+      "toggle": <FaRegMinusSquare />,
+      "volume": <GoUnmute
+        size={26}
+      />,
+    }
+  }
+  loadAudioErrorPlayNext={true}
+  locale="en_US"
+  mobileMediaQuery="(max-width: 768px) and (orientation : portrait)"
+  mode="mini"
+  onBeforeAudioDownload={[Function]}
+  once={false}
+  playModeShowTime={600}
+  playModeTipVisible={false}
+  preload={false}
+  quietUpdate={false}
+  remember={false}
+  remove={true}
+  responsive={true}
+  restartCurrentOnPrev={false}
+  seeked={true}
+  showDestroy={true}
+  showDownload={true}
+  showLyric={true}
+  showMediaSession={false}
+  showMiniModeCover={true}
+  showMiniProcessBar={false}
+  showPlay={true}
+  showPlayMode={true}
+  showProgressLoadBar={true}
+  showReload={true}
+  showThemeSwitch={true}
+  sortableOptions={Object {}}
+  spaceBar={false}
+  theme="dark"
+  toggleMode={true}
+  volumeFade={
+    Object {
+      "fadeIn": 0,
+      "fadeOut": 0,
+    }
+  }
+>
+  <Portal
+    containerInfo={
+      <body>
+        <div
+          class="react-jinke-music-player-main dark-theme text-class-name"
+          tabindex="-1"
+        >
+          <div
+            class="react-jinke-music-player react-draggable"
+            style="left: 0px; top: 0px; transform: translate(0px,0px);"
+            tabindex="-1"
+          >
+            <div
+              class="music-player"
+            >
+              <div
+                class="scale music-player-controller"
+                id="music-player-controller"
+                style="background-image: url();"
+              >
+                <span
+                  class="controller-title"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+                    />
+                  </svg>
+                </span>
+                <div
+                  class="music-player-controller-setting"
+                >
+                  Open
+                </div>
+              </div>
+              <span
+                class="group destroy-btn"
+                title="Destroy"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div
+            class="audio-lists-panel"
+          >
+            <div
+              class="audio-lists-panel-header"
+            >
+              <h2
+                class="audio-lists-panel-header-title"
+              >
+                <span>
+                  Playlists
+                   / 
+                </span>
+                <span
+                  class="audio-lists-panel-header-num"
+                >
+                  0
+                </span>
+                <span
+                  class="audio-lists-panel-header-actions"
+                >
+                  <span
+                    class="audio-lists-panel-header-delete-btn"
+                    title="Delete audio lists"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <span
+                    class="audio-lists-panel-header-line"
+                  />
+                  <span
+                    class="audio-lists-panel-header-close-btn"
+                    title="Close"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </h2>
+            </div>
+            <div
+              class="audio-lists-panel-content no-content"
+            >
+              <span>
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="no-data"
+              >
+                No music
+              </span>
+            </div>
+          </div>
+          <div
+            class="play-mode-title"
+          >
+            Play in order
+          </div>
+          <audio
+            class="music-player-audio"
+            src=""
+            title=""
+          />
+        </div>
+      </body>
+    }
+  >
+    <div
+      className="react-jinke-music-player-main dark-theme text-class-name"
+      tabIndex="-1"
+    >
+      <Draggable
+        allowAnyClick={false}
+        axis="both"
+        bounds="body"
+        cancel={null}
+        defaultClassName="react-draggable"
+        defaultClassNameDragged="react-draggable-dragged"
+        defaultClassNameDragging="react-draggable-dragging"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        enableUserSelectHack={true}
+        grid={null}
+        handle={null}
+        offsetParent={null}
+        onDrag={[Function]}
+        onMouseDown={[Function]}
+        onStart={[Function]}
+        onStop={[Function]}
+        position={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        scale={1}
+        transform={null}
+      >
+        <DraggableCore
+          allowAnyClick={false}
+          cancel={null}
+          disabled={false}
+          enableUserSelectHack={true}
+          grid={null}
+          handle={null}
+          offsetParent={null}
+          onDrag={[Function]}
+          onMouseDown={[Function]}
+          onStart={[Function]}
+          onStop={[Function]}
+          scale={1}
+          transform={null}
+        >
+          <div
+            className="react-jinke-music-player react-draggable"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            style={
+              Object {
+                "left": 0,
+                "top": 0,
+                "transform": "translate(0px,0px)",
+              }
+            }
+            tabIndex="-1"
+            transform={null}
+          >
+            <div
+              className="music-player"
+            >
+              <div
+                className="scale music-player-controller"
+                id="music-player-controller"
+                style={
+                  Object {
+                    "backgroundImage": "url()",
+                  }
+                }
+              >
+                <span
+                  className="controller-title"
+                >
+                  <FaHeadphones>
+                    <IconBase
+                      attr={
+                        Object {
+                          "viewBox": "0 0 512 512",
+                        }
+                      }
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        strokeWidth="0"
+                        style={
+                          Object {
+                            "color": undefined,
+                          }
+                        }
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+                          key="0"
+                        />
+                      </svg>
+                    </IconBase>
+                  </FaHeadphones>
+                </span>
+                <div
+                  className="music-player-controller-setting"
+                >
+                  Open
+                </div>
+              </div>
+              <span
+                className="group destroy-btn"
+                title="Destroy"
+              >
+                <MdClose>
+                  <IconBase
+                    attr={
+                      Object {
+                        "viewBox": "0 0 24 24",
+                      }
+                    }
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        key="0"
+                      />
+                    </svg>
+                  </IconBase>
+                </MdClose>
+              </span>
+            </div>
+          </div>
+        </DraggableCore>
+      </Draggable>
+      <Memo(AudioListsPanel)
+        audioLists={Array []}
+        cover=""
+        glassBg={false}
+        icon={
+          Object {
+            "close": <MdClose />,
+            "delete": <RiDeleteBinLine
+              size={24}
+            />,
+            "destroy": <MdClose />,
+            "download": <TiDownload
+              size={26}
+            />,
+            "empty": <MdLibraryMusic />,
+            "loading": <Spin />,
+            "loop": <MdRepeatOne
+              size={26}
+            />,
+            "lyric": <FaBook />,
+            "mute": <GoMute
+              size={26}
+            />,
+            "next": <MdSkipNext />,
+            "order": <MdViewHeadline
+              size={26}
+            />,
+            "orderLoop": <MdRepeat
+              size={26}
+            />,
+            "packUpPanelMobile": <FiChevronsDown
+              size={26}
+            />,
+            "pause": <AnimatePauseIcon />,
+            "play": <AnimatePlayIcon />,
+            "playLists": <RiPlayList2Fill />,
+            "prev": <MdSkipPrevious />,
+            "reload": <FaSyncAlt
+              size={22}
+            />,
+            "shuffle": <TiArrowShuffle
+              size={26}
+            />,
+            "toggle": <FaRegMinusSquare />,
+            "volume": <GoUnmute
+              size={26}
+            />,
+          }
+        }
+        isMobile={false}
+        loading={false}
+        locale={
+          Object {
+            "clickToDeleteText": [Function],
+            "clickToPauseText": "Click to pause",
+            "clickToPlayText": "Click to play",
+            "closeText": "Close",
+            "controllerTitle": <FaHeadphones />,
+            "darkThemeText": "D",
+            "destroyText": "Destroy",
+            "downloadText": "Download",
+            "emptyLyricText": "No lyric",
+            "emptyText": "No music",
+            "lightThemeText": "L",
+            "loadingText": "Loading",
+            "nextTrackText": "Next track",
+            "openText": "Open",
+            "playListsText": "Playlists",
+            "playModeText": Object {
+              "order": "Play in order",
+              "orderLoop": "List loop",
+              "shufflePlay": "Shuffle playback",
+              "singleLoop": "Single loop",
+            },
+            "previousTrackText": "Previous track",
+            "reloadText": "Reload",
+            "removeAudioListsText": "Delete audio lists",
+            "switchThemeText": "Dark/Light mode",
+            "toggleLyricText": "Toggle lyric",
+            "toggleMiniModeText": "Minimize",
+            "volumeText": "Volume",
+          }
+        }
+        onCancel={[Function]}
+        onDelete={[Function]}
+        onPlay={[Function]}
+        panelToggleAnimate={
+          Object {
+            "show": false,
+          }
+        }
+        playId=""
+        playing={false}
+        remove={true}
+        removeId={-1}
+        visible={false}
+      >
+        <div
+          className="audio-lists-panel"
+        >
+          <div
+            className="audio-lists-panel-header"
+          >
+            <h2
+              className="audio-lists-panel-header-title"
+            >
+              <span>
+                Playlists
+                 / 
+              </span>
+              <span
+                className="audio-lists-panel-header-num"
+              >
+                0
+              </span>
+              <span
+                className="audio-lists-panel-header-actions"
+              >
+                <span
+                  className="audio-lists-panel-header-delete-btn"
+                  onClick={[Function]}
+                  title="Delete audio lists"
+                >
+                  <RiDeleteBinLine
+                    size={24}
+                  >
+                    <IconBase
+                      attr={
+                        Object {
+                          "viewBox": "0 0 24 24",
+                        }
+                      }
+                      size={24}
+                    >
+                      <svg
+                        fill="currentColor"
+                        height={24}
+                        stroke="currentColor"
+                        strokeWidth="0"
+                        style={
+                          Object {
+                            "color": undefined,
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width={24}
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          key="0"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                            key="0"
+                          />
+                          <path
+                            d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"
+                            key="1"
+                          />
+                        </g>
+                      </svg>
+                    </IconBase>
+                  </RiDeleteBinLine>
+                </span>
+                <span
+                  className="audio-lists-panel-header-line"
+                />
+                <span
+                  className="audio-lists-panel-header-close-btn"
+                  onClick={[Function]}
+                  title="Close"
+                >
+                  <MdClose>
+                    <IconBase
+                      attr={
+                        Object {
+                          "viewBox": "0 0 24 24",
+                        }
+                      }
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        strokeWidth="0"
+                        style={
+                          Object {
+                            "color": undefined,
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                          key="0"
+                        />
+                      </svg>
+                    </IconBase>
+                  </MdClose>
+                </span>
+              </span>
+            </h2>
+          </div>
+          <div
+            className="audio-lists-panel-content no-content"
+          >
+            <span>
+              <MdLibraryMusic>
+                <IconBase
+                  attr={
+                    Object {
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                      key="0"
+                    />
+                  </svg>
+                </IconBase>
+              </MdLibraryMusic>
+            </span>
+            <span
+              className="no-data"
+            >
+              No music
+            </span>
+          </div>
+        </div>
+      </Memo(AudioListsPanel)>
+      <Memo(PlayModel)
+        value="Play in order"
+        visible={false}
+      >
+        <div
+          className="play-mode-title"
+        >
+          Play in order
+        </div>
+      </Memo(PlayModel)>
+      <audio
+        className="music-player-audio"
+        src=""
+        title=""
+      />
+    </div>
+  </Portal>
+</ReactJkMusicPlayer>
+`;
+
+exports[`Locale test should render locale with zh_CN 1`] = `
+<ReactJkMusicPlayer
+  audioLists={Array []}
+  autoHiddenCover={false}
+  autoPlay={true}
+  bounds="body"
+  className="text-class-name"
+  defaultPlayIndex={0}
+  defaultPlayMode="order"
+  defaultPosition={
+    Object {
+      "left": 0,
+      "top": 0,
+    }
+  }
+  defaultVolume={1}
+  drag={true}
+  getContainer={[Function]}
+  glassBg={false}
+  icon={
+    Object {
+      "close": <MdClose />,
+      "delete": <RiDeleteBinLine
+        size={24}
+      />,
+      "destroy": <MdClose />,
+      "download": <TiDownload
+        size={26}
+      />,
+      "empty": <MdLibraryMusic />,
+      "loading": <FaSpinner />,
+      "loop": <MdRepeatOne
+        size={26}
+      />,
+      "lyric": <FaBook />,
+      "mute": <GoMute
+        size={26}
+      />,
+      "next": <MdSkipNext />,
+      "order": <MdViewHeadline
+        size={26}
+      />,
+      "orderLoop": <MdRepeat
+        size={26}
+      />,
+      "packUpPanelMobile": <FiChevronsDown
+        size={26}
+      />,
+      "pause": <AnimatePauseIcon />,
+      "play": <AnimatePlayIcon />,
+      "playLists": <RiPlayList2Fill />,
+      "prev": <MdSkipPrevious />,
+      "reload": <FaSyncAlt
+        size={22}
+      />,
+      "shuffle": <TiArrowShuffle
+        size={26}
+      />,
+      "toggle": <FaRegMinusSquare />,
+      "volume": <GoUnmute
+        size={26}
+      />,
+    }
+  }
+  loadAudioErrorPlayNext={true}
+  locale="zh_CN"
+  mobileMediaQuery="(max-width: 768px) and (orientation : portrait)"
+  mode="mini"
+  onBeforeAudioDownload={[Function]}
+  once={false}
+  playModeShowTime={600}
+  playModeTipVisible={false}
+  preload={false}
+  quietUpdate={false}
+  remember={false}
+  remove={true}
+  responsive={true}
+  restartCurrentOnPrev={false}
+  seeked={true}
+  showDestroy={true}
+  showDownload={true}
+  showLyric={true}
+  showMediaSession={false}
+  showMiniModeCover={true}
+  showMiniProcessBar={false}
+  showPlay={true}
+  showPlayMode={true}
+  showProgressLoadBar={true}
+  showReload={true}
+  showThemeSwitch={true}
+  sortableOptions={Object {}}
+  spaceBar={false}
+  theme="dark"
+  toggleMode={true}
+  volumeFade={
+    Object {
+      "fadeIn": 0,
+      "fadeOut": 0,
+    }
+  }
+>
+  <Portal
+    containerInfo={
+      <body>
+        <div
+          class="react-jinke-music-player-main dark-theme text-class-name"
+          tabindex="-1"
+        >
+          <div
+            class="react-jinke-music-player react-draggable"
+            style="left: 0px; top: 0px; transform: translate(0px,0px);"
+            tabindex="-1"
+          >
+            <div
+              class="music-player"
+            >
+              <div
+                class="scale music-player-controller"
+                id="music-player-controller"
+                style="background-image: url();"
+              >
+                <span
+                  class="controller-title"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+                    />
+                  </svg>
+                </span>
+                <div
+                  class="music-player-controller-setting"
+                >
+                  Open
+                </div>
+              </div>
+              <span
+                class="group destroy-btn"
+                title="Destroy"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div
+            class="audio-lists-panel"
+          >
+            <div
+              class="audio-lists-panel-header"
+            >
+              <h2
+                class="audio-lists-panel-header-title"
+              >
+                <span>
+                  Playlists
+                   / 
+                </span>
+                <span
+                  class="audio-lists-panel-header-num"
+                >
+                  0
+                </span>
+                <span
+                  class="audio-lists-panel-header-actions"
+                >
+                  <span
+                    class="audio-lists-panel-header-delete-btn"
+                    title="Delete audio lists"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <span
+                    class="audio-lists-panel-header-line"
+                  />
+                  <span
+                    class="audio-lists-panel-header-close-btn"
+                    title="Close"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </h2>
+            </div>
+            <div
+              class="audio-lists-panel-content no-content"
+            >
+              <span>
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="no-data"
+              >
+                No music
+              </span>
+            </div>
+          </div>
+          <div
+            class="play-mode-title"
+          >
+            Play in order
+          </div>
+          <audio
+            class="music-player-audio"
+            src=""
+            title=""
+          />
+        </div>
+        <div
+          class="react-jinke-music-player-main dark-theme text-class-name"
+          tabindex="-1"
+        >
+          <div
+            class="react-jinke-music-player react-draggable"
+            style="left: 0px; top: 0px; transform: translate(0px,0px);"
+            tabindex="-1"
+          >
+            <div
+              class="music-player"
+            >
+              <div
+                class="scale music-player-controller"
+                id="music-player-controller"
+                style="background-image: url();"
+              >
+                <span
+                  class="controller-title"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+                    />
+                  </svg>
+                </span>
+                <div
+                  class="music-player-controller-setting"
+                >
+                  打开
+                </div>
+              </div>
+              <span
+                class="group destroy-btn"
+                title="移除播放器"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div
+            class="audio-lists-panel"
+          >
+            <div
+              class="audio-lists-panel-header"
+            >
+              <h2
+                class="audio-lists-panel-header-title"
+              >
+                <span>
+                  播放列表
+                   / 
+                </span>
+                <span
+                  class="audio-lists-panel-header-num"
+                >
+                  0
+                </span>
+                <span
+                  class="audio-lists-panel-header-actions"
+                >
+                  <span
+                    class="audio-lists-panel-header-delete-btn"
+                    title="清空播放列表"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <span
+                    class="audio-lists-panel-header-line"
+                  />
+                  <span
+                    class="audio-lists-panel-header-close-btn"
+                    title="关闭"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </h2>
+            </div>
+            <div
+              class="audio-lists-panel-content no-content"
+            >
+              <span>
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="no-data"
+              >
+                音乐播放列表为空
+              </span>
+            </div>
+          </div>
+          <div
+            class="play-mode-title"
+          >
+            顺序播放
+          </div>
+          <audio
+            class="music-player-audio"
+            src=""
+            title=""
+          />
+        </div>
+      </body>
+    }
+  >
+    <div
+      className="react-jinke-music-player-main dark-theme text-class-name"
+      tabIndex="-1"
+    >
+      <Draggable
+        allowAnyClick={false}
+        axis="both"
+        bounds="body"
+        cancel={null}
+        defaultClassName="react-draggable"
+        defaultClassNameDragged="react-draggable-dragged"
+        defaultClassNameDragging="react-draggable-dragging"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        enableUserSelectHack={true}
+        grid={null}
+        handle={null}
+        offsetParent={null}
+        onDrag={[Function]}
+        onMouseDown={[Function]}
+        onStart={[Function]}
+        onStop={[Function]}
+        position={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        scale={1}
+        transform={null}
+      >
+        <DraggableCore
+          allowAnyClick={false}
+          cancel={null}
+          disabled={false}
+          enableUserSelectHack={true}
+          grid={null}
+          handle={null}
+          offsetParent={null}
+          onDrag={[Function]}
+          onMouseDown={[Function]}
+          onStart={[Function]}
+          onStop={[Function]}
+          scale={1}
+          transform={null}
+        >
+          <div
+            className="react-jinke-music-player react-draggable"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            style={
+              Object {
+                "left": 0,
+                "top": 0,
+                "transform": "translate(0px,0px)",
+              }
+            }
+            tabIndex="-1"
+            transform={null}
+          >
+            <div
+              className="music-player"
+            >
+              <div
+                className="scale music-player-controller"
+                id="music-player-controller"
+                style={
+                  Object {
+                    "backgroundImage": "url()",
+                  }
+                }
+              >
+                <span
+                  className="controller-title"
+                >
+                  <FaHeadphones>
+                    <IconBase
+                      attr={
+                        Object {
+                          "viewBox": "0 0 512 512",
+                        }
+                      }
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        strokeWidth="0"
+                        style={
+                          Object {
+                            "color": undefined,
+                          }
+                        }
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+                          key="0"
+                        />
+                      </svg>
+                    </IconBase>
+                  </FaHeadphones>
+                </span>
+                <div
+                  className="music-player-controller-setting"
+                >
+                  打开
+                </div>
+              </div>
+              <span
+                className="group destroy-btn"
+                title="移除播放器"
+              >
+                <MdClose>
+                  <IconBase
+                    attr={
+                      Object {
+                        "viewBox": "0 0 24 24",
+                      }
+                    }
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        key="0"
+                      />
+                    </svg>
+                  </IconBase>
+                </MdClose>
+              </span>
+            </div>
+          </div>
+        </DraggableCore>
+      </Draggable>
+      <Memo(AudioListsPanel)
+        audioLists={Array []}
+        cover=""
+        glassBg={false}
+        icon={
+          Object {
+            "close": <MdClose />,
+            "delete": <RiDeleteBinLine
+              size={24}
+            />,
+            "destroy": <MdClose />,
+            "download": <TiDownload
+              size={26}
+            />,
+            "empty": <MdLibraryMusic />,
+            "loading": <Spin />,
+            "loop": <MdRepeatOne
+              size={26}
+            />,
+            "lyric": <FaBook />,
+            "mute": <GoMute
+              size={26}
+            />,
+            "next": <MdSkipNext />,
+            "order": <MdViewHeadline
+              size={26}
+            />,
+            "orderLoop": <MdRepeat
+              size={26}
+            />,
+            "packUpPanelMobile": <FiChevronsDown
+              size={26}
+            />,
+            "pause": <AnimatePauseIcon />,
+            "play": <AnimatePlayIcon />,
+            "playLists": <RiPlayList2Fill />,
+            "prev": <MdSkipPrevious />,
+            "reload": <FaSyncAlt
+              size={22}
+            />,
+            "shuffle": <TiArrowShuffle
+              size={26}
+            />,
+            "toggle": <FaRegMinusSquare />,
+            "volume": <GoUnmute
+              size={26}
+            />,
+          }
+        }
+        isMobile={false}
+        loading={false}
+        locale={
+          Object {
+            "clickToDeleteText": [Function],
+            "clickToPauseText": "点击暂停",
+            "clickToPlayText": "点击播放",
+            "closeText": "关闭",
+            "controllerTitle": <FaHeadphones />,
+            "darkThemeText": "暗",
+            "destroyText": "移除播放器",
+            "downloadText": "下载",
+            "emptyLyricText": "暂无歌词",
+            "emptyText": "音乐播放列表为空",
+            "lightThemeText": "亮",
+            "loadingText": "加载中",
+            "nextTrackText": "下一首",
+            "openText": "打开",
+            "playListsText": "播放列表",
+            "playModeText": Object {
+              "order": "顺序播放",
+              "orderLoop": "列表循环",
+              "shufflePlay": "随机播放",
+              "singleLoop": "单曲循环",
+            },
+            "previousTrackText": "上一首",
+            "reloadText": "重新播放",
+            "removeAudioListsText": "清空播放列表",
+            "switchThemeText": "暗黑/明亮 主题",
+            "toggleLyricText": "显示/隐藏 歌词",
+            "toggleMiniModeText": "切换至迷你模式",
+            "volumeText": "音量",
+          }
+        }
+        onCancel={[Function]}
+        onDelete={[Function]}
+        onPlay={[Function]}
+        panelToggleAnimate={
+          Object {
+            "show": false,
+          }
+        }
+        playId=""
+        playing={false}
+        remove={true}
+        removeId={-1}
+        visible={false}
+      >
+        <div
+          className="audio-lists-panel"
+        >
+          <div
+            className="audio-lists-panel-header"
+          >
+            <h2
+              className="audio-lists-panel-header-title"
+            >
+              <span>
+                播放列表
+                 / 
+              </span>
+              <span
+                className="audio-lists-panel-header-num"
+              >
+                0
+              </span>
+              <span
+                className="audio-lists-panel-header-actions"
+              >
+                <span
+                  className="audio-lists-panel-header-delete-btn"
+                  onClick={[Function]}
+                  title="清空播放列表"
+                >
+                  <RiDeleteBinLine
+                    size={24}
+                  >
+                    <IconBase
+                      attr={
+                        Object {
+                          "viewBox": "0 0 24 24",
+                        }
+                      }
+                      size={24}
+                    >
+                      <svg
+                        fill="currentColor"
+                        height={24}
+                        stroke="currentColor"
+                        strokeWidth="0"
+                        style={
+                          Object {
+                            "color": undefined,
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width={24}
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          key="0"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                            key="0"
+                          />
+                          <path
+                            d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"
+                            key="1"
+                          />
+                        </g>
+                      </svg>
+                    </IconBase>
+                  </RiDeleteBinLine>
+                </span>
+                <span
+                  className="audio-lists-panel-header-line"
+                />
+                <span
+                  className="audio-lists-panel-header-close-btn"
+                  onClick={[Function]}
+                  title="关闭"
+                >
+                  <MdClose>
+                    <IconBase
+                      attr={
+                        Object {
+                          "viewBox": "0 0 24 24",
+                        }
+                      }
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        strokeWidth="0"
+                        style={
+                          Object {
+                            "color": undefined,
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                          key="0"
+                        />
+                      </svg>
+                    </IconBase>
+                  </MdClose>
+                </span>
+              </span>
+            </h2>
+          </div>
+          <div
+            className="audio-lists-panel-content no-content"
+          >
+            <span>
+              <MdLibraryMusic>
+                <IconBase
+                  attr={
+                    Object {
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                      key="0"
+                    />
+                  </svg>
+                </IconBase>
+              </MdLibraryMusic>
+            </span>
+            <span
+              className="no-data"
+            >
+              音乐播放列表为空
+            </span>
+          </div>
+        </div>
+      </Memo(AudioListsPanel)>
+      <Memo(PlayModel)
+        value="顺序播放"
+        visible={false}
+      >
+        <div
+          className="play-mode-title"
+        >
+          顺序播放
+        </div>
+      </Memo(PlayModel)>
+      <audio
+        className="music-player-audio"
+        src=""
+        title=""
+      />
+    </div>
+  </Portal>
+</ReactJkMusicPlayer>
+`;
